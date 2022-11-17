@@ -1,6 +1,9 @@
 body{
     background-color: black;
 }
+h1{
+    margin-bottom: 0px;
+}
 .titulo{
     background-color: red;
     color: white;
@@ -186,6 +189,19 @@ body{
     text-decoration: underline;
 }
 hr{
-    height: 3px;
+    height: 2px;
     background-color: white;
+    border-top: 0px solid; 
+    opacity: 1;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sinopse > a, .sinopse > p{
+    display: inline;
+    margin-left: 20px; 
+}
+.sinopse > a{
+    line-height: 40px;
 }
